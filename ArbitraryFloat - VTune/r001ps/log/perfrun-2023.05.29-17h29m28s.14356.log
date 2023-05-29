@@ -1,0 +1,687 @@
+720 [15232] INFO perfrun.launcher <> - Launcher main begin
+738 [15232] INFO perfrun.launcher <> - MessageCatalogInit finished
+738 [15232] INFO perfrun.launcher <> - Launcher instance created
+738 [15232] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1048 --option-file C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\config\runsa.options 
+866 [15232] INFO perfrun.launcher <> - New signal handler callback was added
+1339 [15232] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+1341 [15232] INFO perfrun.launcher <> - create file finder object
+1341 [15232] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps pid = 4294967295
+1356 [15232] INFO perfrun.launcher <> - create data directory = C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0
+1358 [15232] INFO perfrun.launcher <> - Creating the master collection flag
+1378 [15232] INFO perfrun.launcher <> - Done creating the master collection flag
+1382 [2304] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+1383 [2304] INFO perfrun.sdk <> - Allocating TMU :C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\systemcollector-14356-DESKTOP-SG60LJ0.sc
+1385 [2304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1385 [2304] INFO perfrun.launcher <> - plugin [itt] was disabled because it doesn't support the given collection type.
+1385 [2304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1385 [2304] INFO perfrun.gpu <> - Event consumer configurations: 
+1418 [2304] INFO perfrun.gpu <> - DeviceInfo: address 0:0:2.0 subdevice index 0 preset 2 sampling interval 1000us
+1418 [2304] INFO perfrun.gpu <> -  counting mode enabled
+1419 [2304] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+1419 [2304] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+1419 [2304] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+1419 [2304] INFO perfrun.mrte <> - system-wide mode is 0
+1420 [2304] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+1681 [2304] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0
+1681 [2304] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-SG60LJ0
+1681 [2304] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+1681 [2304] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C;C:\msys64\mingw64\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Users\Klaudia\AppData\Local\Microsoft\WindowsApps;C:\Users\Klaudia\AppData\Local\atom\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin
+1681 [2304] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+1681 [2304] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+1681 [2304] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+1681 [2304] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+1681 [2304] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+1682 [2304] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+1682 [2304] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+1682 [2304] INFO perfrun.mrte <> - Data directory: C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0
+1682 [2304] INFO perfrun.mrte <> - Mrte plugin is initialized
+1684 [2304] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+1684 [2304] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+1684 [2304] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.tpss <> - initialize tpss controller
+1685 [2304] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+1685 [2304] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+1686 [15232] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0
+1686 [15232] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-SG60LJ0
+1686 [15232] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+1686 [15232] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C;C:\msys64\mingw64\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Users\Klaudia\AppData\Local\Microsoft\WindowsApps;C:\Users\Klaudia\AppData\Local\atom\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin
+1687 [15232] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+1687 [15232] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+1687 [15232] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+1687 [15232] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+1688 [15232] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+1688 [15232] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+1688 [15232] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+1688 [15232] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+1796 [15232] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\Klaudia\Desktop\Projekty C++\ArbitraryFloat\bin\Release\ArbitraryFloat.exe' is valid.
+1796 [15232] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\Klaudia\Desktop\Projekty C++\ArbitraryFloat\bin\Release\ArbitraryFloat.exe
+1797 [15232] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Users\Klaudia\Desktop\Projekty C++\ArbitraryFloat\bin\Release\ArbitraryFloat.exe
+1797 [15232] INFO perfrun.launcher <> - ProcessCreator object was created
+1808 [15232] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+1810 [2304] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement started.
+6212 [2304] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement finished.
+6252 [2304] INFO perfrun.sdk <> - Allocating TMU :C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\gen_metrics0_0_2_0_0.0.cfg
+6254 [2304] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\gen_metrics0_0_2_0_0.0.cfg
+6269 [2304] INFO perfrun.gpu <> - GPU counting mode: initialization successful
+6271 [2304] INFO perfrun.gpu <> - Creating main data processing loop
+6276 [2304] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\emon.exe" -M
+6292 [2304] INFO perfrun.sdk <> - runCmd started PID 1656
+6317 [13956] INFO perfrun.sdk <> - Allocating TMU :C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\gen_metrics0_0_2_0_0.0.vtss
+6318 [13956] INFO perfrun.gpu <> - IO stream opening, timer period: 1000000, buffer size: 0 subDevice 0 tile 0
+6343 [13956] INFO perfrun.gpu <> - IO stream opened, timer period: 682666, buffer size: 16777216
+6790 [2304] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\emon.exe" -v
+6812 [2304] INFO perfrun.sdk <> - runCmd started PID 15372
+6874 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6874 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6874 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6874 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6874 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6874 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6874 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6874 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6874 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6875 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6875 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6875 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6875 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6875 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6875 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6875 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6875 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6876 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6876 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6876 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6876 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6876 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6876 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6876 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6877 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6877 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+6877 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+6877 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+6877 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7248 [2304] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\sep.exe" -dry-run -ec CPU_CLK_UNHALTED.THREAD:sa=1000000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=1000000,INST_RETIRED.ANY:sample:sa=1000000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003,UOPS_RETIRED.RETIRE_SLOTS:sample:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=2000003,UOPS_EXECUTED.X87:sa=2000003,UOPS_EXECUTED.THREAD:sa=2000003,CYCLE_ACTIVITY.STALLS_L1D_MISS:sa=2000003,CYCLE_ACTIVITY.STALLS_L2_MISS:sa=2000003,CYCLE_ACTIVITY.STALLS_L3_MISS:sa=2000003,CYCLE_ACTIVITY.STALLS_MEM_ANY:sa=2000003,CYCLE_ACTIVITY.STALLS_TOTAL:sa=2000003,EXE_ACTIVITY.1_PORTS_UTIL:sa=2000003,EXE_ACTIVITY.2_PORTS_UTIL:sa=2000003,EXE_ACTIVITY.BOUND_ON_STORES:sa=2000003,EXE_ACTIVITY.EXE_BOUND_0_PORTS:sa=2000003,IDQ_UOPS_NOT_DELIVERED.CORE:sa=2000003,INT_MISC.RECOVERY_CYCLES:sa=2000003,UOPS_ISSUED.ANY:sa=2000003,MEM_LOAD_RETIRED.L3_MISS_PS:sa=50003,L1D_PEND_MISS.FB_FULL:cmask=1:sa=2000003,L1D_PEND_MISS.PENDING:sa=2000003,MEM_LOAD_L3_HIT_RETIRED.XSNP_HITM_PS:sa=100003,MEM_LOAD_L3_HIT_RETIRED.XSNP_HIT_PS:sa=100003,MEM_LOAD_L3_HIT_RETIRED.XSNP_MISS_PS:sa=100003,MEM_LOAD_RETIRED.FB_HIT_PS:sa=2000003,MEM_LOAD_RETIRED.L1_MISS_PS:sa=2000003,MEM_LOAD_RETIRED.L2_HIT_PS:sa=2000003,MEM_LOAD_RETIRED.L3_HIT_PS:sa=200003,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:cmask=4:sa=2000003,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD:sa=2000003,MEM_INST_RETIRED.ALL_LOADS_PS:sa=100003,MEM_INST_RETIRED.ALL_STORES_PS:sa=100003,UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES -experimental
+7280 [2304] INFO perfrun.sdk <> - runCmd started PID 7068
+7391 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7392 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7392 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7392 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7392 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7392 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7392 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7392 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7393 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7393 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7393 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7393 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7394 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7394 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7394 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7394 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7394 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7394 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7394 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7394 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7394 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7394 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7395 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7395 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7395 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7395 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7395 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7395 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7396 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7396 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7396 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7396 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7908 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7908 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7908 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7908 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7908 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7909 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7909 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7910 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7910 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7910 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7910 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7910 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7910 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7910 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7911 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7911 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7911 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7911 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7911 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+7911 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+7911 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+7919 [2304] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\emon.exe" -u -t 0.010 -l0 -A -C CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE,CPU_CLK_UNHALTED.REF_TSC,CPU_CLK_UNHALTED.REF_XCLK,CPU_CLK_UNHALTED.THREAD,CYCLE_ACTIVITY.STALLS_L1D_MISS,CYCLE_ACTIVITY.STALLS_L2_MISS,CYCLE_ACTIVITY.STALLS_L3_MISS,CYCLE_ACTIVITY.STALLS_MEM_ANY,CYCLE_ACTIVITY.STALLS_TOTAL,EXE_ACTIVITY.1_PORTS_UTIL,EXE_ACTIVITY.2_PORTS_UTIL,EXE_ACTIVITY.BOUND_ON_STORES,EXE_ACTIVITY.EXE_BOUND_0_PORTS,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,IDQ_UOPS_NOT_DELIVERED.CORE,INST_RETIRED.ANY,INT_MISC.RECOVERY_CYCLES,L1D_PEND_MISS.FB_FULL:c1,L1D_PEND_MISS.PENDING,MEM_INST_RETIRED.ALL_LOADS,MEM_INST_RETIRED.ALL_STORES,MEM_LOAD_L3_HIT_RETIRED.XSNP_HIT,MEM_LOAD_L3_HIT_RETIRED.XSNP_HITM,MEM_LOAD_L3_HIT_RETIRED.XSNP_MISS,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:c4,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES,UOPS_EXECUTED.THREAD,UOPS_EXECUTED.X87,UOPS_ISSUED.ANY,UOPS_RETIRED.RETIRE_SLOTS -f C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\emon.0.emon -experimental
+7935 [2304] INFO perfrun.sdk <> - runCmd started PID 14476
+7935 [2304] INFO perfrun.emon <> - Waiting trace file creation: C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\emon.0.emon
+8353 [2304] INFO perfrun.emon <> - trace file was found
+8353 [15232] INFO perfrun.launcher <> - Launcher: all plugins were started
+8353 [15232] INFO perfrun.launcher <> - DirectoryMonitor object was created
+8353 [15232] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+8353 [15232] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+8353 [15232] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+8398 [15232] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+8412 [15232] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+8459 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8460 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8460 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8460 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8460 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8460 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8460 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8460 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8460 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8460 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8460 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8461 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8461 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8461 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8461 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8461 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8461 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8462 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8462 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8462 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8462 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8462 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+8462 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+8462 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+8462 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9035 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9035 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9035 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9035 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9036 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9036 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9036 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9036 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9036 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9036 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9036 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9037 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9037 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9037 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9037 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9037 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9037 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9038 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9038 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9038 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9038 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9038 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9038 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9039 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9039 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9039 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9039 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9039 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9039 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9039 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9039 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9039 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9039 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9040 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9040 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9040 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9040 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9040 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9040 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9040 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9040 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9040 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9040 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9041 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9569 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9569 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9569 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9569 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9569 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9569 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9570 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9570 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9570 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9570 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9570 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9571 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9571 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9571 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9571 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9571 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9571 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9572 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9572 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9572 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+9572 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+9572 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10075 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10075 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10076 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10076 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10076 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10076 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10076 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10076 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10076 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10076 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10076 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10076 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10077 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10077 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10077 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10077 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10077 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10077 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10078 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10078 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10078 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10078 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10078 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10078 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10078 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10583 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10583 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10583 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10583 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10583 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10584 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10584 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10584 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10584 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10584 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10584 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10584 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10584 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10585 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10585 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10586 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10586 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10586 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10586 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10586 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10586 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10586 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10586 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10587 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10587 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10587 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+10587 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+10587 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11093 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11093 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11093 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11093 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11094 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11094 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11094 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11094 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11094 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11094 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11095 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11095 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11095 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11095 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11095 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11095 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11095 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11583 [15232] WARN perfrun.sdk <> - Unexpected exit status - -1073740940, at file: C:\BB\ANphep2w6r\b\tmp9jhc2h\vcs\perfrun1\sdk\src\utils_win.cpp:541
+11584 [15232] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = -1073740940
+11614 [2304] INFO perfrun.gpu <> - Waiting for data collection thread to finish
+11626 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11626 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11626 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11626 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11626 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11626 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11626 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11626 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11626 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11626 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11627 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11627 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11628 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11628 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11628 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11628 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11628 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11628 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11628 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11628 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11629 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11629 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11629 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11629 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11629 [13956] INFO perfrun.gpu <> - Entered handling of low-power state
+11629 [13956] INFO perfrun.gpu <> - Exited handling of low-power state
+11629 [13956] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+11629 [13956] INFO perfrun.gpu <> - Writing dual vector buffer
+11629 [13956] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\gen_metrics0_0_2_0_0.0.vtss
+11644 [13956] INFO perfrun.gpu <> - Data collection routine finished
+11661 [2304] INFO perfrun.gpu <> - Data collection thread finished, shutting down the session
+11662 [2304] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\emon.exe" -stop
+11681 [2304] INFO perfrun.sdk <> - runCmd started PID 14696
+12219 [2304] INFO perfrun.emon <> - EMON collector successfully stopped.
+
+12219 [2304] INFO perfrun.emon <> - Waiting for main Emon process (14476) to finish...
+12219 [2304] INFO perfrun.emon <> - Main Emon process finished
+12220 [2304] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\systemcollector-14356-DESKTOP-SG60LJ0.sc
+12245 [2304] INFO perfrun.system <> - closed the system trace file: C:\Users\Klaudia\Documents\VTune\Projects\ArbitraryFloat\r008ps\data.0\systemcollector-14356-DESKTOP-SG60LJ0.sc
+12245 [15232] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+12246 [15232] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+12263 [15232] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+12265 [15232] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+12266 [15232] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: C:\BB\ANphep2w6r\b\tmp9jhc2h\vcs\perfrun1\launcher\src\command_handler.cpp:226
+12268 [15232] INFO perfrun.launcher <> - Application exit code: -1073740940
+12268 [15232] INFO perfrun.launcher <> - Exit code: 4
